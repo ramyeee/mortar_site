@@ -1,0 +1,28 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunBatang-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.item {
+    font-family: 'GowunBatang-Bold';
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .item {
+        font-size: 10px;
+        font-weight: 300;
+    }
+}

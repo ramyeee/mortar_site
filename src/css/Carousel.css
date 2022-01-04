@@ -1,0 +1,37 @@
+.carousel {
+    overflow: hidden;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.inner { 
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carousel-item { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; 
+    background-color: green; 
+    color: #fff;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 10vh;        
+    }
+
+    .inner {
+        top: 20vh;
+    }
+}
